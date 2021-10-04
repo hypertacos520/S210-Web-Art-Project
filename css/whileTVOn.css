@@ -100,6 +100,24 @@ from each image class.
   opacity: 1;
 }
 
+.backgroundLevel2{
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-image: url("../resources/images/apartment.png");
+	z-index: -1;
+}
+
+.backgroundLevel1{
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-image: url("../resources/images/great-outdoors-the-great-outdoors.gif");
+	z-index: -2;
+}
+
 body{
 	align-content: center;
 }
