@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+.TVcentered img{
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+*/
+
+/*
+To center align all the things, uncomment the following div class and remove the left attribute
+from each image class.
+*/
+
+.centerAllTheThings{
+	display: flex;
+	position: relative;
+	justify-content: center;
+}
+
+.powerBTN {
+  background-image: url("Layer 2.png");
+  position: relative;
+  left: 269px;
+  top: 554px;
+  width: 35px;
+  height: 29px;
+  z-index: 3;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+
+.powerBTN:hover{
+  opacity: 1;
+}
+
+/*
+.powerBTN:not(hover){
+  opacity: 0;
+}
+*/
+
+.crtMain {
+  background-image: url("Layer 1.png");
+  position: absolute;
+/*  left: 0px;*/
+  top: 0px;
+  width: 640px;
+  height: 653px;
+  z-index: 2;
+}
+
+.peopleInScreen {
+  background-image: url("ey-staff-at-event.png");
+  position: absolute;
+/*  left: 74px;*/
+  top: 65px;
+  width: 492px;
+  height: 396px;
+  z-index: 0;
+}
+
+.TVStatic{
+	position: absolute;
+	top: 5px;
+	width: 600px;
+	z-index: 1;
+}
+
+.channelUp {
+  background-image: url("Layer 4.png");
+  position: relative;
+  left: 200px;
+  top: 554px;
+  width: 34px;
+  height: 28px;
+  z-index: 3;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+
+.channelUp:hover{
+  opacity: 1;
+}
+
+.channelDown {
+  background-image: url("Layer 3.png");
+  position: absolute;
+  left: 976px;
+  top: 591px;
+  width: 35px;
+  height: 26px;
+  z-index: 3;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+
+.channelDown:hover{
+  opacity: 1;
+}
+
+body{
+	align-content: center;
+}
+
+
