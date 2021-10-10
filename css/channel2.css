@@ -63,6 +63,17 @@ from each image class.
   object-fit: cover;
 }
 
+.staticOverlay {
+  background-image: url("ey-staff-at-event.png");
+  position: absolute;
+  left: -190px;
+  top: 65px;
+  width: 492px;
+  height: 396px;
+  z-index: 3;
+  object-fit: cover;
+}
+
 .TVStatic{
 	position: absolute;
 	top: 5px;

@@ -129,6 +129,7 @@ from each image class.
 	margin: 0px;
 	top: 0px;
 	left: 0px;
+	object-fit: cover;
 	background-repeat: no-repeat;
 	position: absolute;
 	background-size: cover;

@@ -15,8 +15,9 @@ from each image class.
 
 .centerAllTheThings{
 	display: flex;
-	position: relative;
+	position: absolute;
 	justify-content: center;
+	left: 700px;
 }
 
 .powerBTN {
