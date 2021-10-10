@@ -103,7 +103,7 @@ from each image class.
 
 .backgroundLevel2{
 	height: 100vh;
-	width: 1500px;
+	width: 1500px; /*Comment this out if there are problems*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
@@ -113,7 +113,7 @@ from each image class.
 
 .backgroundLevel1{
 	height: 100vh;
-	width: 1500px;
+	width: 1500px; /*Comment this out if there are problems*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
