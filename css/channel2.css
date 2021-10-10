@@ -1,34 +1,35 @@
 @charset "UTF-8";
 /* CSS Document */
 /*
-.TVcentered img{
-	display: block;
-	margin-left: auto;
-  	margin-right: auto;
-}
-*/
-
-/*
 To center align all the things, uncomment the following div class and remove the left attribute
 from each image class.
 */
-
+/*
 .centerAllTheThings{
 	display: flex;
 	position: relative;
 	justify-content: center;
 }
+*/
+
+.centerAllTheThings{
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	left: 700px;
+}
 
 .powerBTN {
   background-image: url("Layer 2.png");
   position: relative;
-  left: 269px;
+  left: 303px;
   top: 554px;
   width: 35px;
   height: 29px;
   z-index: 3;
   transition: opacity 0.5s;
   opacity: 0;
+  pointer-events: auto;
 }
 
 .powerBTN:hover{
@@ -59,6 +60,7 @@ from each image class.
   width: 492px;
   height: 396px;
   z-index: 0;
+  object-fit: cover;
 }
 
 .TVStatic{
@@ -71,13 +73,14 @@ from each image class.
 .channelUp {
   background-image: url("Layer 4.png");
   position: relative;
-  left: 200px;
+  left: 234px;
   top: 554px;
   width: 34px;
   height: 28px;
   z-index: 3;
   transition: opacity 0.5s;
   opacity: 0;
+  pointer-events: auto;
 }
 
 .channelUp:hover{
@@ -86,14 +89,15 @@ from each image class.
 
 .channelDown {
   background-image: url("Layer 3.png");
-  position: absolute;
-  left: 976px;
+  position: relative;
+  left: 199px;
   top: 591px;
   width: 35px;
   height: 26px;
   z-index: 3;
   transition: opacity 0.5s;
   opacity: 0;
+  pointer-events: auto;
 }
 
 .channelDown:hover{
@@ -108,22 +112,39 @@ from each image class.
 	background-position: top;
 	background-image: url("../resources/images/apartment.png");
 	z-index: -1;
+	transition: all 0.5s;
+}
+
+.backgroundLevel2:hover{
+	background-image: url("../resources/images/apartmentBlur.png")
+}
+
+.corruptBackground{
+	height: 100vh;
+	width: 1500px; /*Comment this out if there are problems*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	pointer-events: none;
+/*	background-image: url("../resources/images/colorBars.gif");*/
+	z-index: -2;
 }
 
 .backgroundLevel1{
 	height: 100vh;
 	width: 1500px; /*Comment this out if there are problems*/
-	padding: 0px;
-	margin: 0px;
-	top: 0px;
-	left: 0px;
-	background-repeat: no-repeat;
 	position: absolute;
+	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
-	pointer-events: none;
 	background-image: url("../resources/images/great-outdoors-the-great-outdoors.gif");
-	z-index: -2;
+	z-index: -3;
+}
+
+.container{
+	position: absolute;
+	height: 100vh;
+	width: 1500px; /*Comment this out if there are problems*/
 }
 
 .windowLeft{
