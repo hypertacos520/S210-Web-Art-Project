@@ -1,22 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
 /*
-.TVcentered img{
-	display: block;
-	margin-left: auto;
-  	margin-right: auto;
-}
-*/
-
-/*
 To center align all the things, uncomment the following div class and remove the left attribute
 from each image class.
 */
-
+/*
 .centerAllTheThings{
 	display: flex;
 	position: relative;
 	justify-content: center;
+}
+*/
+
+.centerAllTheThings{
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	left: 700px;
 }
 
 .powerBTN {
@@ -138,6 +138,12 @@ from each image class.
 	background-position: top;
 	background-image: url("../resources/images/great-outdoors-the-great-outdoors.gif");
 	z-index: -3;
+}
+
+.container{
+	position: absolute;
+	height: 100vh;
+	width: 1500px; /*Comment this out if there are problems*/
 }
 
 .windowLeft{

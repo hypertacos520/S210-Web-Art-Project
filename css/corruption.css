@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+.TVcentered img{
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+*/
+
+/*
+To center align all the things, uncomment the following div class and remove the left attribute
+from each image class.
+*/
+
+.centerAllTheThings{
+	display: flex;
+	position: relative;
+	justify-content: center;
+}
+
+.powerBTN {
+  background-image: url("Layer 2.png");
+  position: relative;
+  left: 303px;
+  top: 554px;
+  width: 35px;
+  height: 29px;
+  z-index: 3;
+  transition: opacity 0.5s;
+  opacity: 0;
+  pointer-events: auto;
+}
+
+.powerBTN:hover{
+  opacity: 1;
+}
+
+/*
+.powerBTN:not(hover){
+  opacity: 0;
+}
+*/
+
+.crtMain {
+  background-image: url("Layer 1.png");
+  position: absolute;
+/*  left: 0px;*/
+  top: 0px;
+  width: 640px;
+  height: 653px;
+  z-index: 2;
+}
+
+.peopleInScreen {
+  background-image: url("ey-staff-at-event.png");
+  position: absolute;
+/*  left: 74px;*/
+  top: 65px;
+  width: 492px;
+  height: 396px;
+  z-index: 0;
+  object-fit: cover;
+}
+
+.TVStatic{
+	position: absolute;
+	top: 5px;
+	width: 600px;
+	z-index: 1;
+}
+
+.channelUp {
+  background-image: url("Layer 4.png");
+  position: relative;
+  left: 234px;
+  top: 554px;
+  width: 34px;
+  height: 28px;
+  z-index: 3;
+  transition: opacity 0.5s;
+  opacity: 0;
+  pointer-events: auto;
+}
+
+.channelUp:hover{
+  opacity: 1;
+}
+
+.channelDown {
+  background-image: url("Layer 3.png");
+  position: relative;
+  left: 199px;
+  top: 591px;
+  width: 35px;
+  height: 26px;
+  z-index: 3;
+  transition: opacity 0.5s;
+  opacity: 0;
+  pointer-events: auto;
+}
+
+.channelDown:hover{
+  opacity: 1;
+}
+
+.backgroundLevel2{
+	height: 100vh;
+	width: 1500px; /*Comment this out if there are problems*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-image: url("../resources/images/apartment.png");
+	z-index: -1;
+}
+
+.backgroundLevel1{
+	height: 100vh;
+	width: 1500px; /*Comment this out if there are problems*/
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-image: url("../resources/images/colorBars.gif");
+	z-index: -3;
+}
+
+.windowLeft{
+	height: 100vh;
+	width: 325px;
+	z-index: 0;
+	pointer-events: auto;
+	position: absolute;
+}
+
+.windowRight{
+	height: 100vh;
+	width: 325px;
+	z-index: 0;
+	right: 0px;
+	pointer-events: auto;
+	position: absolute;
+}
+
+body{
+	align-content: center;
+}
+
+
