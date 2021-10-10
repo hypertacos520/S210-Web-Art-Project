@@ -15,8 +15,9 @@ from each image class.
 
 .centerAllTheThings{
 	display: flex;
-	position: relative;
+	position: absolute;
 	justify-content: center;
+	left: 725px;
 }
 
 .powerBTN {
@@ -100,6 +101,17 @@ from each image class.
   opacity: 1;
 }
 
+.backgroundLevel3{
+	height: 100vh;
+	width: 1500px; /*Comment this out if there are problems*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-image: url("../resources/images/window.png");
+	z-index: -1;
+}
+
+
 .backgroundLevel2{
 	height: 100vh;
 	width: 1500px; /*Comment this out if there are problems*/
@@ -141,6 +153,19 @@ from each image class.
 	right: 0px;
 	pointer-events: auto;
 	position: absolute;
+}
+
+.remote{
+	position: absolute;
+	pointer-events: auto;
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: bottom;
+	background-image: url("../resources/images/remote.png");
+	z-index: 0;
+	height: 35vh;
+	width: 250px;
+	bottom: 0px;
 }
 
 body{
