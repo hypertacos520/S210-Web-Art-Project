@@ -128,6 +128,10 @@ from each image class.
 	z-index: -1;
 }
 
+.backgroundLevel2:hover{
+	background-image: url("../resources/images/apartmentDark.png")
+}
+
 .corruptBackground{
 	height: 100vh;
 	width: 1500px; /*Comment this out if there are problems*/
@@ -140,7 +144,7 @@ from each image class.
 }
 
 .corruptBackground:hover{
-	background-image: url("../resources/images/colorBars.gif");
+	background-image: url("../resources/images/rain.gif");
 }
 
 .backgroundLevel1{
