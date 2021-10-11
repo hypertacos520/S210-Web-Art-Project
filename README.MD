@@ -1,7 +1,7 @@
 # S210 Web Art Project
 
-![Main](https://github.com/hypertacos520/S210-Web-Art-Project/blob/master/resources/images/screenshots/off.png?raw=true)
-![Crazy](https://github.com/hypertacos520/S210-Web-Art-Project/blob/master/resources/images/screenshots/crazy.png?raw=true)
+![Main](https://github.com/hypertacos520/S210-Web-Art-Project/blob/main/resources/images/screenshots/off.png?raw=true)
+![Crazy](https://github.com/hypertacos520/S210-Web-Art-Project/blob/main/resources/images/screenshots/crazy.png?raw=true)
 
 This is my project for SOAD-S 210 Fall 2021. 
 
