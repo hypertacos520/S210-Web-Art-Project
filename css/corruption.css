@@ -18,6 +18,7 @@ from each image class.
 	position: absolute;
 	justify-content: center;
 	left: 700px;
+	top: 10vh;
 }
 
 .powerBTN {
